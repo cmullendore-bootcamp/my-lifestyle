@@ -19,6 +19,14 @@
 - Google API
 - Open Weaather API
 
+## Page Preview
+
+![Page Screenshot](./assets/images/MyLifestylePreview.gif)
+
+## Page URL
+
+- https://cmullendore-bootcamp.github.io/my-lifestyle/
+
 ## Repo URL
 
 - https://github.com/cmullendore-bootcamp/my-lifestyle
