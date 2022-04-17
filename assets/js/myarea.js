@@ -3,7 +3,7 @@
 
 function initMap() {
     const location = {lat: -73.8331, lng: 40.7675} ;
-    const map = new google.maps.Map(document.getElementById ("map"))
+    const myareamap = new google.maps.Map(document.getElementById ("map"))
          {center: location,
             zoom: 8,
             mapId: "c84822eab8f75974" ,
