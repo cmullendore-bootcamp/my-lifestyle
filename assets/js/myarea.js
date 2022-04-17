@@ -16,10 +16,10 @@ function myarea_initAutocomplete() {
     var input = document.getElementById('myarea-search');
     const searchBox = new google.maps.places.SearchBox(input);
     
-    myareamap.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+    myareamap.controls[google.maps.ControlPosition.CENTER].push(input);
 
     let markers = [];
-
+ 
     // Listen for the event fired when the user selects a prediction and retrieve
     // more details for that place.
     searchBox.addListener("places_changed", () => {
@@ -72,8 +72,4 @@ function myarea_initAutocomplete() {
     });
 
 }
-
-
-
-
-
+window.initMap = initMap;
