@@ -10,7 +10,7 @@ function myarea_initAutocomplete() {
     const myareamap = new google.maps.Map(document.getElementById("myarea-map"),
         {
             center: location,
-            zoom: 8,
+            zoom: 4,
             mapId: "c84822eab8f75974",
         });
     var input = document.getElementById('myarea-search');
