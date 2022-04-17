@@ -7,7 +7,7 @@ function initMap() {
          {center: location,
             zoom: 8,
             mapId: "c84822eab8f75974" ,
-            }) ;
+         };
         }
         var input = document.getElementById('search input');
         map.controls[google.maps.ControlPostion.TOP_LEFT].push(input) ;
