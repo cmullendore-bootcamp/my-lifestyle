@@ -1,21 +1,17 @@
-
-.tasks-header {
-    background-color: white;
+.columns h1 {
+    padding: 15px;
+    text-align: center;
 }
 
-.tasks-header h3 {
+.header h3 {
     text-align: center;
-    background-color: #191970;
+    background-color: #43719E;
     padding: 15px 10px;
     border-radius: 10px;
     font-size: 20px;
+    font-weight: bold;
     color: white;
 }
-
-.tasks-header a {
-    text-decoration: none;
-}
-
 .modal a.close-modal {
     top: 6.5px;
     right: 6.5px;
@@ -24,19 +20,18 @@
 .modal h1 {
     text-align: center;
     font-size: 25px;
-    color: #191970;
+    color: #43719E;
     margin-bottom: 10px;
-    border-bottom: 2px solid #191970;
+    border-bottom: 2px solid #43719E;
 }
-.is-info {
-    margin-bottom: 15px;
-    border: 1px solid #191970;
-    box-shadow: 3px 5px 3px 3px rgba(25, 25, 112, 0.5);
-    border-radius: 10px;
+.textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #43719E;
 }
 
-.tasks-save-btn {
-    background-color: #191970;
+.save-btn {
+    background-color: #43719E;
     color: white;
     padding: 15px 40px;
     border-radius: 10px;
@@ -46,33 +41,28 @@
 }
 
 .tasks-list {
-    border: 1px solid #191970;
-    border-radius: 10px;
-    padding-bottom: 30px;
+    border: 1px solid #43719E;
+    padding-bottom: 25px;
     min-height: 100px;
 }
 
-.task-list-item, .tasks-header {
+.task-list-item, .header {
     padding: 10px;
     margin: 10px;
 }
 
-.tasks-header { 
-    padding: 30px 0;
+.check-box {
+    border-color: white;
 }
 
-.task-list-item {
-    border-bottom: 1.5px solid #191970;
-    padding-bottom: 20px;
-}
-
-.tasks-btn-check {
+.btn-check {
+    margin-left: 15px;
     height: 50px;
     width: 50px;
-    padding: 0 auto;
+    background-color: white;
     font-size: 25px;
     border: none;
-    border: 2px solid #191970;
+    border: 2px solid #43719E;
     border-radius: 5px;
 }
 
@@ -85,27 +75,13 @@
 }
 
 .task-box {
+    border:2px solid white;
     border-radius: 10px;
     color: white;
-    background-color: #191970;
+    background-color: #43719E;
 
 }
 
 .task {
     padding: 10px 15px;
-}
-
-
-.modal {
-    vertical-align: middle;
-    position: relative;
-    z-index: 2;
-    max-width: 500px;
-    box-sizing: border-box;
-    width: 90%;
-    background: #fff;
-    padding: 15px 30px;
-    box-shadow: 0 0 10px #000;
-    text-align: left;
-    max-height: 300px;
 }

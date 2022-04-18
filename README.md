@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# collaboration-project-1
+=======
 # My Lifestyle
 
 ## Summary
@@ -30,3 +33,4 @@
 ## Repo URL
 
 - https://github.com/cmullendore-bootcamp/my-lifestyle
+>>>>>>> 02fe87eb50fd18433496caf9c6ab02f70dab7b08

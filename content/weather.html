@@ -1,59 +1,54 @@
+<div class="weather-container d-flex flex-row justify-content-around col-12">
+    <!-- Left column -->
+     <div class="weather-left-column col-5">
+         <!-- Display day of the week -->
+         <h3 id="weather-current-day">Monday</h3>
+         <!-- Display weather icon -->
+         <img id="weather-current-icon">
+         <!-- Display temp -->
+         <p id="weather-current-temp">Test</p>
+         <!-- Display condition -->
+         <p id="weather-current-condition"></p>
+         <!-- Display Humidity -->
+         <p id="weather-current-humidity">Test</p>
+     </div>
 
-    <!-- Weather container -->
-    <div class="weather-container d-flex flex-row justify-content-around col-12 text-center">
-        <!-- Left column -->
-         <div class="weather-left-column col-5">
-             <!-- Display day of the week -->
-             <h3 id="weather-current-day"></h3>
-             <!-- Display weather icon -->
-             <img id="weather-current-icon">
-             <!-- Display temp -->
-             <p id="weather-current-temp">Test</p>
-             
+     <!-- Right column -->
+     <div class="weather-column-right col-4">
+         <!-- Display next 5 days weather icon and temp -->
+         <!-- Display day of the week -->
+         <h4 id="day-0" class="col-12">Test</h4>
+         <div class="day-0-container flex-row d-flex justify-space-around col-12">
+             <img class="img-day-0 col-sm-3">
+             <p class="temp-day-0 col-sm-3">Test</p>
          </div>
- 
-         <!-- Right column -->
-         <div class="weather-column-right col-sm-4 col-12 text-center">
-             <!-- Display next 5 days weather icon and temp -->
-             <!-- Display day of the week -->
-             
-             <div class="day-0-container flex-row d-flex justify-content-center col-12">
-                 <p id="day-0">Mon</p>
-                 <img class="img-day-0 col-sm-3">
-                 <p class="temp-day-0 col-sm-3 "">Test</p>
-             </div>
- 
-             
-             <div class="day-1-container flex-row d-flex justify-content-center col-12">
-                 <p id="day-1">Mon</p>
-                 <img class="img-day-1 col-sm-3">
-                 <p class="temp-day-1 col-sm-3">Test</p>
-             </div>
- 
-             
-             <div class="day-2-container flex-row d-flex justify-content-center col-12">
-                 <p id="day-2">Mon</p>
-                 <img class="img-day-2 col-sm-3">
-                 <p class="temp-day-2 col-sm-3">Test</p>
-             </div>
- 
-             
-             <div class="day-3-container flex-row d-flex justify-content-center col-12">
-                 <p id="day-3">Mon</p>
-                 <img class="img-day-3 col-sm-3">
-                 <p class="temp-day-3 col-sm-3">Test</p>
-             </div>
- 
-             
-             <div class="day-4-container flex-row d-flex justify-content-center col-12">
-                 <p id="day-4">Mon</p>
-                 <img class="img-day-4 col-sm-3">
-                 <p class="temp-day-4 col-sm-3">Test</p>
-             </div>
-             
-         </div>
-    </div>
 
-    
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src='./assets/js/weather.js'></script>
+         <h4 id="day-1" class="col-12">Test</h4>
+         <div class="day-1-container flex-row d-flex justify-space-around col-12">
+             <img class="img-day-1 col-sm-3">
+             <p class="temp-day-1 col-sm-3">Test</p>
+         </div>
+
+         <h4 id="day-2" class="-12">Test</h4>
+         <div class="day-2-container flex-row d-flex justify-space-around col-12">
+             <img class="img-day-2 col-sm-3">
+             <p class="temp-day-2 col-sm-3">Test</p>
+         </div>
+
+         <h4 id="day-3" class="col-12">Test</h4>
+         <div class="day-3-container flex-row d-flex justify-space-around col-12">
+             <img class="img-day-3 col-sm-3">
+             <p class="temp-day-3 col-sm-3">Test</p>
+         </div>
+
+         <h4 id="day-4" class="col-12">Test</h4>
+         <div class="day-4-container flex-row d-flex justify-space-around col-12">
+             <img class="img-day-4 col-sm-3">
+             <p class="temp-day-4 col-sm-3">Test</p>
+         </div>
+         
+     </div>
+</div>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js" ></script>
+ <script src='./assets/js/weather.js'></script>
